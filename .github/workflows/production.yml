@@ -1,4 +1,4 @@
-name: Deploy Next.js with PNPM
+name: Deploy Next.js with PNPM and PM2
 
 on:
   push:
