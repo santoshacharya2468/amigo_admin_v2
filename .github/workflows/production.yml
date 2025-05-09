@@ -43,14 +43,14 @@ jobs:
         run: pnpm build
 
       - name: Deploy to server
-        uses: burnett01/rsync-deployments@5.2.1
+        uses: appleboy/ssh-action@v1.0.0
         with:
           switches: -avzr --delete
           path: .next/ public/ package.json pnpm-lock.yaml
           remote_path: ~/projects/amigo_dashboard/
-          remote_host: ${{ secrets.SERVER_IP }}
-          remote_user: ${{ secrets.SERVER_USER }}
-          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: ${{ secrets.SERVER_IP }}
+          user: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Run commands on server
         uses: appleboy/ssh-action@v1.0.0
