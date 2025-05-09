@@ -1,0 +1,5 @@
+name,email,parent,parentRelation,parentContact,password,mobileNumber,address,gender,dob
+Raj Sharma,raj.s@example.com,Priya Sharma,MOTHER,9845671230,student123,9845671230,45 Lake View Road,MALE,2006-08-12
+Maya Patel,maya.p@example.com,Anil Patel,FATHER,9876123450,student456,9876123450,123 Green Park,FEMALE,2006-03-15
+Arjun Singh,arjun.s@example.com,Meera Singh,MOTHER,9812345670,student789,9812345670,78 Hill View Colony,MALE,2006-05-22
+Sita Thapa,sita.t@example.com,Ram Thapa,FATHER,9867890123,student321,9867890123,156 River Side,FEMALE,2006-11-30
