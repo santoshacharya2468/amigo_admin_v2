@@ -49,7 +49,7 @@ jobs:
           path: .next/ public/ package.json pnpm-lock.yaml
           remote_path: ~/projects/amigo_dashboard/
           host: ${{ secrets.SERVER_IP }}
-          user: ${{ secrets.SERVER_USER }}
+          username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Run commands on server
