@@ -50,7 +50,7 @@ jobs:
           remote_path: ~/projects/amigo_dashboard/
           remote_host: ${{ secrets.SERVER_IP }}
           remote_user: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Run commands on server
         uses: appleboy/ssh-action@v1.0.0
