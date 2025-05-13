@@ -114,7 +114,7 @@ export function LoginForm() {
             <div className="w-10 h-10"></div>
             <Button
               type="submit"
-              className="w-full  text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              className="w-full  text-black font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               variant={"default"}
               disabled={loading}
             >
